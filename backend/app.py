@@ -11,7 +11,7 @@ CORS(app)
 
 def get_db_connection():
     try:
-        conn = psycopg2.connect("postgresql://postgres:123@localhost:5432/chatbot")
+        conn = psycopg2.connect("connect this to ur SQL fr2")
         return conn
     except psycopg2.Error as e:
         logger.error(f"Database connection error: {e}")
