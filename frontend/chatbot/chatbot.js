@@ -129,8 +129,6 @@ async function processUserInput(text) {
             break;
 
         case 'WAITING_FOR_DAY':
-
-            // Map day names from Mongolian to your database values if needed
             const dayMap = {
                 "даваа": "даваа",
                 "мягмар": "мягмар",
