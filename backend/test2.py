@@ -15,7 +15,7 @@ model = pipeline("automatic-speech-recognition", model="bayartsogt/whisper-small
 
 def connect_to_database():
     try:
-        engine = create_engine("postgresql://postgres:123@localhost:5432/chatbot")
+        engine = create_engine("use the sql fr2 to connect")
         return engine
     except Exception as e:
         print(f"Database connection error: {e}")
