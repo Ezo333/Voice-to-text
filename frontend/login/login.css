@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/background.png');
+    background-color: #121212;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(64, 80, 255);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+}
+
+.login-container h2 {
+    color: #3838ff;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #8084ff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #8084ff;
+    outline: none;
+    background-color: #ffffff;
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    margin: 5px;
+    background: linear-gradient(to right, #007bff, #007bff, #00aaff, #abcfff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #8aa5f8;
+}
+
+#error-message {
+    color: rgb(173, 50, 50);
+    font-size: 14px;
+    margin-top: 10px;
+}
